@@ -27,24 +27,21 @@ The Dataset contains 11 Independent Features and 1 Dependent Feature(Item_Outlet
   - Stacked Bar plot to know the count of every Categorical Feature
   
  2) Preprocessing and Feature Engineering -
-  - Filling missing values
+  - Filling missing values. For one feature we applied an Ensemble Voting Classifier to predict values.
   - Dealing with the Skewness of the data by using scalers
-  - Adding new Features to the Dataset
   - Scaling the continous columns
   - One hot Encoding on the categorical columns
   
   3) Applying models-
   - The problem is a Regression problem used for prediction
   - Various models were used on the above data
-  - The best two performing were the Catboost Regressor and the Stacking Ensemble Regressor Method
+  - The best performing was the Catboost Regressor
   
   4) Evaluation Metric-
    
    - Model performance was evaluated on the basis of the prediction of Outlet_sales and the metric to judge it was Root Mean Squared Error.
    
-   - Error for Catboost Classifier-
-      
-   - Error for Ensemble Classifier-
+   - Error for Catboost Classifier- 1189.23263304827
      
      
 # Executive Summary
